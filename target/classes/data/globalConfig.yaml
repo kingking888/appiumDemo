@@ -1,0 +1,9 @@
+appium:
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 20
+  capabilities:
+    platformName: android
+    deviceName: 192.168.56.101:5555
+    appPackage: com.xueqiu.android
+    appActivity: .view.WelcomeActivityAlias
+    autoGrantPermissions: true

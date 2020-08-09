@@ -1,0 +1,9 @@
+appium:
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 3000
+  capabilities:
+    platformName: android
+    deviceName: CLB0218403000759
+    appPackage: cn.futu.trader
+    appActivity: cn.futu.trader.launch.activity.LaunchActivity
+    autoGrantPermissions: true
